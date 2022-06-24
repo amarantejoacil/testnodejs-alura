@@ -34,5 +34,6 @@ for (let c in cliente){
     `
   }
 }
+
 //console.log(typeof cliente.depositar) //retorn uma string function
 // console.log(relatorio)
