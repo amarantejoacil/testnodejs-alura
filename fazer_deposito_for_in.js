@@ -24,7 +24,7 @@ cliente.depositar(30)
 let relatorio = "";
 for (let c in cliente){
   // console.log(c) // retorna as chaves
-  // console.log(cliente[c]) //retorna objetivo joao e seus dados
+  console.log(cliente[c]) //retorna objetivo joao e seus dados
 
   if(typeof cliente[c]=== "object" || typeof cliente[c]==="function"){
     continue
